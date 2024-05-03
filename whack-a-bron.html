@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-A-Bron Game</title>
+    <link rel="stylesheet" href="whack.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Whack-A-Bron!</h1>
+        <button id="startButton">Start Game</button>
+    </header>
+    <div id ="scoreboard" class = "scoreboard">
+        <p id = "scoreContainer">Score: <span id="score">0</span></p>
+    </div>
+    <div id="gameBoard" class="game-board"></div>
+    <div id="gameOverModal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <p id="gameOverMessage">Game over! You hit the wrong mole!</p>
+        </div>
+    </div>
+    <script src="whackscript.js"></script>
+    <script src="whack.js"></script>
+</body>
+</html>
