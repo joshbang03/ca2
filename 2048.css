@@ -1,0 +1,73 @@
+/*<!-- INSPIRED BY MIT OPEN LICENSE 2048 CODE: https://github.com/kubowania/2048/tree/master -->*/
+body {
+    background-image: url("assets/grass.jpeg"); 
+    display: flex;
+    justify-content: center;
+    font-family: "Arial", sans-serif; 
+}
+#result{
+    font-weight: 999 ;
+    color: #fc4c02;
+    background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+h1 {
+    font-size: 80px;
+    line-height: 0.7;
+    color: #fc4c02;
+    margin: 0px;
+}
+
+.container {
+    width: 468px;
+    margin-top: 30px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 456px;
+    height: 456px;
+    //background-color: #dddddd; 
+    border: 7px solid #3483eb; 
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15); 
+}
+
+.grid div {
+    width: 100px;
+    height: 100px;
+    margin: 7px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #3483eb; 
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.6;
+}
+
+.score-container {
+    text-align: center;
+    width: 70px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #fc4c02; 
+    color: #FFFFFF;
+}
+
+#score {
+    font-size: 30px;
+}
+
+.score-title {
+    font-size: 16px;
+}

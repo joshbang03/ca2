@@ -1,0 +1,132 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    text-decoration: none; 
+    color: black; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+a img{
+    border:0;
+    width: 100%;
+    height: 100%;
+}
+a:hover img{
+    opacity: 0.8;
+}
+#startButton {
+    padding: 10px 20px;
+    font-size: 18px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+#startButton:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+#startButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#scoreContainer {
+    background-color: red; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    display: inline-block; 
+    margin: 10px 0; 
+}
+
+#score {
+    font-weight: bold; 
+    font-size: 20px; 
+}
+#scoreContainer {
+    transition: background-color 2s ease-in-out;
+}
+
+body>main{
+    background-color: black;
+}
+
+#Lebron{
+    background-color: lightsalmon;
+}
+#football{
+    background-color: tan;
+}
+#football{
+    background-color: tan;
+}
+#outside2048{
+    background-color: lightpink;
+}

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('assets/49ersfield.png') no-repeat center center fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#gameArea {
+    width: 800px;
+    height: 600px;
+    background-color: rgba(135, 206, 235, 0.5); 
+    position: relative;
+    margin: 20px auto;
+    border: 5px solid #333;
+    overflow: hidden;
+}
+
+.object {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+    cursor: pointer;
+}
